@@ -35,4 +35,4 @@ db.sequelize.sync().then(() => {
   app.listen(env.PORT, function listenHandler() {
     // console.info('Running on: ' + env.PORT);
   });
-});
+})
